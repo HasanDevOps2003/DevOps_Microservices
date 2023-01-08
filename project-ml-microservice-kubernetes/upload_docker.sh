@@ -9,7 +9,7 @@
 dockerpath="muhammadhasan2003/project4"
 # Step 2:  
 # Authenticate & tag
-docker login --username muhmmadhasan2003 --password-stdin 
+docker login 
 docker tag project4 $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
