@@ -10,4 +10,4 @@ docker build --tag=project4 .
 docker image ls
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 mlapi
+docker run -p 8000:80 project4
